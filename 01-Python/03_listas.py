@@ -24,5 +24,7 @@ print(numberArray)
 del numberArray[1:4]
 print(numberArray)
 
+array_one = [1, 2, 3]
+array_two = [4, 5, 6]
 
-
+print(array_one + array_two)
