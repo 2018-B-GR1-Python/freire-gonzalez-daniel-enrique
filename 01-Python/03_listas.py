@@ -10,5 +10,19 @@ print(numberArray[-1])
 print(numberArray[-2])
 print(numberArray[3:-2])
 print(numberArray[-5:-2])
+print(7 in numberArray)
+print(15 in numberArray)
+print(len(numberArray))
+numberArray.append(10)
+print(numberArray)
+numberArray.pop(-3)
+print(numberArray)
+numberArray.insert(1, 1.2)
+print(numberArray)
+del numberArray[1]
+print(numberArray)
+del numberArray[1:4]
+print(numberArray)
+
 
 
